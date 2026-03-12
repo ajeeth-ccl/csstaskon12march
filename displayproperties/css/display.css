@@ -1,5 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
-    background-image: url(../images/Rectangle\ 8.png),
+    width: 100%;
+}
+
+
+
+.section-1{
+    background-image: linear-gradient(to right, rgba(39, 245, 235, 0.0), rgba(39, 245, 235, 1.0)),
     url(../images/hand-touching-digital-screen-with-data-visualization\ 1.png);
     background-size: cover,cover;
     background-position: center center;
@@ -9,8 +20,8 @@
 }
 .cont2{
     display: inline-block;
-    margin-top: 50px;
-    margin-left: 900px;
+    margin-top: 70px;
+    margin-left: 910px;
     color: white;
 }
 .cont2 h1{
